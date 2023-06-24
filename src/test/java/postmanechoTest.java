@@ -14,7 +14,7 @@ public class postmanechoTest {
             .post("/post")
         .then()
             .statusCode(200)
-            .body("data", equalTo("som ee date"));
+            .body("data", equalTo("some date"));
     }
 
 }
